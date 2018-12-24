@@ -2,27 +2,27 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "Sample Short Description",
+        "ja-JP": {
+          "summary": "Wake On Lan for My PC and My phrase",
           "examplePhrases": [
-            "Alexa open hello class world",
-            "hello",
-            "help"
+            "アレクサ、俺のパソコンを開いて",
+            "アレクサ、俺のパソコンを起動して",
+            "アレクサ、俺のパソコンをスタートして"
           ],
-          "name": "Hello Class World",
-          "description": "Sample Full Description"
+          "name": "俺のパソコン",
+          "description": "Amazon Echo デバイスから Wake On Lan を使って、自宅のパソコンを起動するためのスキルです。"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
-      "category": "KNOWLEDGE_AND_TRIVIA",
+      "testingInstructions": "1) アレクサ、俺のパソコンを開いて、E2) アレクサ、俺のパソコンを起動して、E3) アレクサ、俺のパソコンをスタートして",
+      "category": "SMART_HOME",
       "distributionCountries": []
     },
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/py",
-          "uri": "ask-custom-helloworld-classes-default"
+          "sourceDir": "lambda/py/lambda_upload",
+          "uri": "arn:aws:lambda:us-east-1:001983752002:function:Wake-On-Lan-for-My-Pc"
         }
       }
     },

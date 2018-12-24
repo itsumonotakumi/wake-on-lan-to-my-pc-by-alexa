@@ -1,12 +1,8 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "greeter",
+            "invocationName": "俺のパソコン",
             "intents": [
-                {
-                    "name": "AMAZON.FallbackIntent",
-                    "samples": []
-                },
                 {
                     "name": "AMAZON.CancelIntent",
                     "samples": []
@@ -20,19 +16,13 @@
                     "samples": []
                 },
                 {
-                    "name": "HelloWorldIntent",
+                    "name": "LaunchMyPC",
                     "slots": [],
                     "samples": [
-                        "how are you",
-                        "say hi world",
-                        "say hi",
-                        "hi",
-                        "hello",
-                        "say hello world",
-                        "say hello"
+                        "起動して"
                     ]
                 }
-            ],
+             ],
             "types": []
         }
     }
