@@ -1,3 +1,15 @@
+# For ASK
+.ask/
+.github/
+.venv/
+hooks/
+instructions/
+lambda/py/lambda_upload/
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+NOTICE
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
