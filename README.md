@@ -1,7 +1,7 @@
 # wake-on-lan-to-my-pc-by-alexa
 WakeOnLAN to my Computer by Alexa and Amazon Echo devises.
 
-[Wake On LAN を Alexa で実現する](https://takulog.info/wake-on-lan-to-my-pc-by-alexa-v1/)
+<a href="https://takulog.info/wake-on-lan-to-my-pc-by-alexa-v1/">Wake On LAN を Alexa で実現する</a>
 
 [Alexa Skill Kit SDK を始めようとして挫折しかけた2つの失敗](https://takulog.info/alexa-skill-kit-sdk-2-failure-of-beginners/)
 
